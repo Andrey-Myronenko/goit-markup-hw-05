@@ -315,8 +315,13 @@
             <div class="modal-overlay is-open">
                 <div class="modal">
                     <form class="form" name="modal-window" autocomplete="off" novalidate>
+                        <div class="modal-icon">
+                            <svg class="svg-modal" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close"></use>
+                            </svg>
+                        </div>
                         <label>
-                            
+                            <p>Leave your contacts and we will call you back</p>
                         </label>
                         <label>
                             Name
@@ -332,13 +337,13 @@
                         </label>
                         <label>
                             Comment
-                            <input type="text">
+                            <input type="text" placeholder="Text input">
                         </label>
                         <label>
-                            <input type="radio">
+                            <input type="checkbox">
                             I accept the terms and conditions of the Privacy Policy
                         </label>
-                        <button class="modal-button" type="button">Send</button>
+                        <button class="modal-button" type="submit">Send</button>
                     </form>
                 </div>
             </div>

@@ -472,7 +472,7 @@ section {
 }
 
 .modal {
-  background-color:#fff;
+  background-color: red;
   border-radius: 4px;
   padding: 24px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -480,6 +480,20 @@ section {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   max-width: 408px;
   max-height: 584px;
+}
+
+.svg-modal {
+  fill: #2E2F42;
+}
+
+.modal-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%;
+  background-color: #E7E9FC;
 }
 
 .label-one {
