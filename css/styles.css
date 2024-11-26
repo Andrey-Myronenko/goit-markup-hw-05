@@ -32,6 +32,11 @@ ul {
   padding-left: 0;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -179,6 +184,12 @@ a {
   background-size: cover;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7));
   background-position: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 section {
@@ -469,6 +480,23 @@ section {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   max-width: 408px;
   max-height: 584px;
+}
+
+.label-one {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.modal-button {
+  width: 169px;
+  height: 56px;
+  background-color: #4D5AE5;
+  border-radius: 4px;
+  color: #fff;
 }
 
 .container-div {
