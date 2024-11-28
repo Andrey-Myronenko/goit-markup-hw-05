@@ -310,46 +310,56 @@
                         </ul>
                     </div>
                 </section>
+                <div class="modal-overlay is-open">
+                    <div class="modal">
+                        <form class="form" name="modal-window" autocomplete="off" novalidate>
+                            <div class="right-icon">
+                                <div class="modal-icon">
+                                    <svg class="svg-modal" width="8" height="8">
+                                        <use href="./images/icons.svg#icon-close"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <label>
+                                <p class="modal-p">Leave your contacts and we will call you back</p>
+                            </label>
+                            <label>
+                                <p>Name</p>
+                                <input class="modal-input" type="text" placeholder="">
+                            </label>
+                            <label>
+                                <p>Phone</p>
+                                <input class="modal-input" type="tel">
+                            </label>
+                            <label>
+                                <p>Email</p>
+                                <input class="modal-input" type="email">
+                            </label>
+                            <label>
+                                <p>Comment</p>
+                                <textarea class="modal-textarea" name=" " id="" rows="8"></textarea>
+                            </label>
+                            <label>
+                                <input type="checkbox">
+                                I accept the terms and conditions of the Privacy Policy
+                            </label>
+                            <button class="modal-button" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
         </main>
             <footer class="footer-down">
                 <div class="container">
-                    <div class="modal-overlay is-open">
-                        <p class="modal-div-p">Subscribe</p>
-                        <div class="modal">
-                            <form class="form" name="modal-window" autocomplete="off" novalidate>
-                                <div class="right-icon">
-                                    <div class="modal-icon">
-                                        <svg class="svg-modal" width="8" height="8">
-                                            <use href="./images/icons.svg#icon-close"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                    <label>
-                                        <p class="modal-p">Leave your contacts and we will call you back</p>
-                                    </label>
-                                    <label>
-                                        <p>Name</p>
-                                        <input class="modal-input" type="text" placeholder="">
-                                    </label>
-                                    <label>
-                                        <p>Phone</p>
-                                        <input class="modal-input" type="tel">
-                                    </label>
-                                    <label>
-                                        <p>Email</p>
-                                        <input class="modal-input" type="email">
-                                    </label>
-                                    <label>
-                                        <p>Comment</p>
-                                        <textarea class="modal-textarea" name=" " id="" rows="8"></textarea>
-                                    </label>
-                                    <label>
-                                        <input type="checkbox">
-                                        I accept the terms and conditions of the Privacy Policy
-                                    </label>
-                                    <button class="modal-button" type="submit">Send</button>
+                    <div class="footer-form">
+                        <p class="subscribe-form-p">Subscribe</p>
+                            <form class="subscribe-form">
+                                <label class="subscribe-label">
+                                    <input class="subscribe-input" name="subscribe" type="email" placeholder="E-mail">
+                                    <button class="subscribe-button" type="submit"><svg class="subscribe-icon" width="24" height="24">
+                                      <use href="./images/icons.svg#icon-subscribe"></use>
+                                    </svg> Subscribe</button>
+                                </label>
                             </form>
-                        </div>
                     </div>
                 <div class="container-div">
                     <div class="footer-container">
