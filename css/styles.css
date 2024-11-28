@@ -561,6 +561,7 @@ section {
 
 .subscribe-label {
   gap: 24px;
+  display: flex;
 }
 
 .subscribe-input {
@@ -601,7 +602,7 @@ section {
 
 .subscribe-icon {
   margin-left: 16px;
-  
+
 }
 
 .footer-container {
