@@ -315,29 +315,31 @@
             <div class="modal-overlay is-open">
                 <div class="modal">
                     <form class="form" name="modal-window" autocomplete="off" novalidate>
-                        <div class="modal-icon">
-                            <svg class="svg-modal" width="8" height="8">
-                            <use href="./images/icons.svg#icon-close"></use>
-                            </svg>
+                        <div class="right-icon">
+                            <div class="modal-icon">
+                                <svg class="svg-modal" width="8" height="8">
+                                <use href="./images/icons.svg#icon-close"></use>
+                                </svg>
+                            </div>
                         </div>
                         <label>
-                            <p>Leave your contacts and we will call you back</p>
+                            <p class="modal-p">Leave your contacts and we will call you back</p>
                         </label>
                         <label>
-                            Name
-                            <input type="text">
+                            <p>Name</p>
+                            <input class="modal-input" type="text" placeholder="">
                         </label>
                         <label>
-                            Phone
-                            <input type="tel">
+                            <p>Phone</p>
+                            <input class="modal-input" type="tel">
                         </label>
                         <label>
-                            Email
-                            <input type="email">
+                            <p>Email</p>
+                            <input class="modal-input" type="email">
                         </label>
                         <label>
-                            Comment
-                            <input type="text" placeholder="Text input">
+                            <p>Comment</p>
+                            <textarea class="modal-textarea" name=" " id="" rows="8"></textarea>
                         </label>
                         <label>
                             <input type="checkbox">
