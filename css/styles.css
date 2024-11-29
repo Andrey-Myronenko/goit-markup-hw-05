@@ -546,6 +546,10 @@ section {
   align-items: baseline;
 }
 
+.footer-form {
+  margin-left: 80px;
+}
+
 .subscribe-form-p {
   margin-bottom: 16px;
   font-weight: 500;
@@ -602,7 +606,6 @@ section {
 
 .subscribe-icon {
   margin-left: 16px;
-
 }
 
 .footer-container {
