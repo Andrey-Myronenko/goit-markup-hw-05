@@ -709,10 +709,10 @@ section {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-label {
-  gap: 24px;
   display: flex;
 }
 
