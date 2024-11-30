@@ -518,6 +518,11 @@ section {
     color: #2e2f42;
 }
 
+.label-icon {
+  position: relative;
+  
+}
+
 .modal-input {
   width: 100%;
   height: 40px;
