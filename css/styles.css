@@ -630,7 +630,7 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
 
 .form-button {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   align-self: center;
   font-family: "Roboto", sans-serif;
