@@ -103,7 +103,6 @@ a {
   padding: 24px 0 24px;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 500ms;
 }
 
 .studio-original {
@@ -113,7 +112,6 @@ a {
   padding: 24px 0 24px;
   display: block;
   color: #404bbf;
-  transition-property: font-size;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
@@ -132,13 +130,11 @@ a {
 .studio-original:hover,
 .studio-original:focus {
   color: #404bbf;
-  font-size: 15px;
 }
 
 .studio:hover,
 .studio:focus {
   color: #404bbf;
-  font-size: 15px;
 }
 
 .adress-list {
@@ -166,7 +162,6 @@ a {
 .adress .link-adress:hover,
 .adress .link-adress:focus {
   color: #404bbf;
-  font-size: 15px;
 }
 
 .hero-image {
@@ -182,14 +177,10 @@ a {
     url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7));
   background-position: center;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
@@ -285,7 +276,6 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .benefits-p {
@@ -464,11 +454,6 @@ section {
   padding: 100px 0;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
 .modal-overlay {
   position: fixed;
   background-color: rgba(46, 47, 66, 0.4); 
@@ -478,9 +463,6 @@ section {
   height: 100%;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
@@ -508,9 +490,6 @@ section {
   width: 408px;
   min-height: 584px;
   background: #fcfcfc;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
 .svg-modal {
@@ -613,6 +592,7 @@ section {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -644,6 +624,8 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-button:hover,
@@ -689,11 +671,11 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
 }
 
 .footer-form {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .modal-p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -777,6 +759,12 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -785,7 +773,6 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
 
 .footer-container {
   margin-right: 120px;
-  margin-left: 156px;
 }
 
 .logo-nav-footer {
