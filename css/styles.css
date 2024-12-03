@@ -675,7 +675,7 @@ input[type="checkbox"]:checked + .label-checkbox > .span-checkbox {
 }
 
 .modal-p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
